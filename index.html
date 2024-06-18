@@ -1,132 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Roboto&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <header id="cabecalho">
     <div class="navbar navbar-expand-lg sticky-top pt-4">
         <div class="container">
-            <h1 class="navbar-brand">Coffees</h1>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="collapse navbar-collapse  justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>  
-                    </li>
-                    <li  class="nav-item">
-                        <a class="nav-link" href="#produtos">Produtos</a>
-                    </li>
-                    <li  class="nav-item">
-                        <a class="nav-link" href="#contato">Entre em contato</a>
-                    </li>
-               </ul>
-            </nav>
+        <h1 class="navbar-brand">Coffees</h1>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
+            <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Entre em contato</a>
+            </li>
+            </ul>
+        </nav>
         </div>
     </div>
-     </header>
-        <section id="images-home">
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-            <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./image/slide/coffeehouse-2600877_640.jpg" class="w-100" alt="Foto de fora do café">
-            </div> 
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="./image/slide/coffee-2560260_640.jpg"  class="w-100" alt="Barista passando café">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="./image/slide/barista-6197867_640.jpg" class="w-100" alt="Mesa na rua">
-            </div>   
-        </div> 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-            </div>
-            </div>
-            <section id="produtos" class="pt-5 mb-5">
-                <div class="container">
-                    <h2 class="title">Produtos</h2>
-                    <div class="row">
+    </header>
+    <section id="images-home">
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./image/slide/coffeehouse-2600877_640.jpg" class="w-100" alt="Foto de fora do café">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="./image/slide/coffee-2560260_640.jpg" class="w-100" alt="Barista passando café">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="./image/slide/barista-6197867_640.jpg" class="w-100" alt="Mesa na rua">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section id="produtos" class="pt-5 mb-5">
+        <div class="container">
+        <h2 class="title">Produtos</h2>
+        <div class="row">
             <div class="col-md-6 col-lg-4">
-                <div class="cards">
-                    <img src="./image/Produtos/Doces/food-2151361_1280.jpg" alt="" class="d-block w-100 rounded">
-                    <div class="card-body">
-                        <h2 class="card-title mt-3 mb-3 fs-3 fw-bold">Doces</h2>
-                        <p class="card-text mb-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cumque delectus pariatur, eveniet facilis odit assumenda deleniti. Qui cumque harum voluptates quam cum, dolorem corporis consequuntur quasi totam 
-                        </p>
-                    </div>
-                </div>
+            <div class="cards">
+            <img src="./image/Produtos/Doces/food-2151361_1280.jpg" alt="" class="d-block w-100 rounded">
+                <div class="card-body">
+                <h2 class="card-title mt-3 mb-3 fs-3 fw-bold">Doces</h2>
+                <p class="card-text mb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dignissimos deserunt voluptates sed sit ipsum tenetur temporibus, officia similique! Quae architecto unde soluta optio facilis
+                </p>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="cards">
-                    <img src="./image/Produtos/Salgados/bread-4077812_1280.jpg" alt="" class="d-block w-100 rounded">
-                    <div class="card-body">
-                        <h2 class="card-title mt-3 mb-3 fs-3 fw-bold">Salgados</h2>
-                        <p class="card-text mb-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cumque delectus pariatur, eveniet facilis odit assumenda deleniti. Qui cumque harum voluptates quam cum, dolorem corporis consequuntur quasi totam 
-                        </p>
-                    </div>
-                </div>
+            </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="cards">
-                  <img src="./image/Produtos/Café/coffee-869203_1280.jpg" alt="" class="d-block w-100 rounded">
-                    <div class="card-body">
-                        <h2 class="card-title mt-3 mb-3 fs-3 fw-bold">Cafés</h2>
-                        <p class="card-text mb-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cumque delectus pariatur, eveniet facilis odit assumenda deleniti. Qui cumque harum voluptates quam cum, dolorem corporis consequuntur quasi totam
-                        </p>
-                    </div>
-                </div>
+            <div class="cards">
+                <img src="./image/Produtos/Salgados/bread-4077812_1280.jpg" alt="" class="d-block w-100 rounded">
+            <div class="card-body">
+                <h2 class="card-title mt-3 mb-3 fs-3 fw-bold">Salgados</h2>
+                <p class="card-text mb-3">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nesciunt obcaecati, itaque eligendi temporibus cum, eveniet est aliquam odio consectetur ducimus vel praesentium error eum autem adipisci doloremque corporis consequatur.
+                </p>
             </div>
-         </div>
-        </section>
-        <section id="contato" class="pt-5 pb-5">
-            <div class="container">
-            <div class="row">
-                <h2 class="title">Entre em contato</h2>
             </div>
-                <div class="row">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nome" class="form-label fw-bold text-colored" >Nome</label>
-                            <input type="text" id="nome" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label fw-bold text-colored">E-mail</label>
-                            <input type="email" id="email" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
-                            <input type="tel" id="telefone" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
-                            <textarea class="form-control" id="mensagem"required></textarea> 
-                        </div>
-                        <button type="submit" class="btn--dark fw-bold">Enviar</button>
-                    </form>
+            </div>
+            <div class="col-md-6 col-lg-4">
+            <div class="cards">
+                <img src="./image/Produtos/Café/coffee-869203_1280.jpg" alt="" class="d-block w-100 rounded">
+            <div class="card-body">
+                <h2 class="card-title mt-3 mb-3 fs-3 fw-bold">Cafés</h2>
+                <p class="card-text mb-3">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aperiam. Deleniti quidem repellat, consequuntur quasi impedit porro, sequi inventore officiis nemo a magnam? Voluptatibus id temporibus, nulla incidunt dolorum soluta.
+                </p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+        <div class="row">
+            <h2 class="title">Entre em contato</h2>
+        </div>
+        <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                <input type="text" id="nome" class="form-control" required />
                 </div>
-     
-        <script src="./lib/bootstrap.bundle.min.js"></script>    
-    </body>
-    </html>
-            
+                <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                <input type="email" id="email" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                <input type="tel" id="telefone" class="form-control" />
+                </div>
+                <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored"
+                  >Sua mensagem</label>
+                <textarea class="form-control" id="mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn--dark fw-bold">Enviar</button>
+            </form>
+        </div>
+        </div>
+        </div>
+    </section>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
