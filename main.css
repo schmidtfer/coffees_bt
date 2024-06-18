@@ -20,7 +20,7 @@
     }
 
     .navbar-brand{
-        font-family: "Chakra Petch", sans-serif;
+        font-family:"Chakra Petch", sans-serif;
         font-size: 70px;
     }
 
@@ -49,7 +49,7 @@
         height: 250px;
     }
 
-       .form-control, button{
-           background-color: #D9D3D0;
-        }
+    .form-control, button{
+        background-color: #D9D3D0;
+    }
 
