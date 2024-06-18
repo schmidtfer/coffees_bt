@@ -1,0 +1,55 @@
+    body{
+    font-family: "Roboto", sans-serif;
+    background-color:#733D0E;
+    color:black;
+    }
+
+    .navbar{
+    background-color: #260B05;
+    }
+
+    .nav .nav-link.active{
+    background-color: #D98B48;
+    color:#733D0E;
+    }
+
+    .nav .nav-link, 
+    .navbar-brand,
+    .navbar-brand:hover{
+    color:  #D98B48;
+    }
+
+    .navbar-brand{
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 70px;
+    }
+
+    .navbar-toggler {
+        background-color: #d98c48d8;
+    }
+   
+
+    .title{
+        font-family: "Chakra Petch", sans-serif;
+        color: #D98B48;
+        font-size: 40px;
+    }
+
+    .card-title{
+        font-weight: bold;
+        color:#260B05;
+    }
+
+    #images-home img{
+        max-height: 800px;
+    }
+  
+
+    #produtos img{
+        height: 250px;
+    }
+
+       .form-control, button{
+           background-color: #D9D3D0;
+        }
+
